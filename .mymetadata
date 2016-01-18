@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="shiningCity"
+  id="myeclipse.1432283442868"
+  context-root="/shiningCity"
+  j2ee-spec="5.0"
+  archive="shiningCity.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0px; padding: 0px; border: 0px none; font: inherit; vertical-align: baseline; }
+ aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body {
+	font-family: "微软雅黑","Microsoft Yahei",Helvetica,Verdana,sans-serif ! important;
+	background:#eeeeee;
+	font-size: 12px !important;
+}
+
+.mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.mask #foo {
+	position: absolute;
+	bottom: 700px;
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	font-size: 16px;
+}
+
+
+
+#search .input-box{
+	padding:5px;
+	text-align: center;
+	font-size: 5vw;'
+}
+#search .input-box input{
+	width:70%;
+}
+
+#search .button input{
+	margin:5px 0px;
+	margin-right:10px;
+	padding:3px 8px;
+}
+
+
+#pager .pagination{
+	margin:5px auto;
+}
+
+#votelist li{
+	list-style: none;
+	background-color: #1B8FAC;
+	padding:8px;
+	margin-bottom: 10px;
+	color: #FFF;
+}
+.col-xs-6,.col-sm-4,.col-md-4{
+	padding:0px 5px;
+}
+
+#votelist div.info{
+	padding:0px 5px;
+	text-align: left;
+}
+#votelist div.inforow{
+	padding:0px 1px;
+	font-size: 5vw;
+}
+
+#votelist .datarow{
+	text-align: center;
+	padding:5px 0px;
+	color: #fff;
+	margin: 2px auto;
+}
+
+#votelist  button.vote{
+	margin:5px 5px 5px 0px;
+	padding: 5px 10px;
+	background: #C3E2A7;
+	color: #000;
+}
+
+#votelist .datarow:nth-child(8n+1) {background-color:#36A1DB}
+#votelist .datarow:nth-child(8n+2) {background-color:#678ce1}
+#votelist .datarow:nth-child(8n+3) {background-color:#8c67df}
+#votelist .datarow:nth-child(8n+4) {background-color:#84d018}
+#votelist .datarow:nth-child(8n+5) {background-color:#14c760}
+#votelist .datarow:nth-child(8n+6) {background-color:#f3b613}
+#votelist .datarow:nth-child(8n+7) {background-color:#ff8a4a}
+#votelist .datarow:nth-child(8n+8) {background-color:#fc5366}
+
+
+#msg{
+    padding-right: 0px;	
+}
+
+#msg .title_gb{
+}
+
+#msg .title_text{
+	position: absolute;
+	text-align: right;
+	font-size: 7vw;
+	color: #FFF;
+	bottom: 10%;
+	right: 10px;
+}
+
+#time_conter {
+  background: #1B8FAC url(../images/c.png) no-repeat 14px center;
+  background-size: 42px 42px;
+  color: #FFF;
+  TEXT-ALIGN: left;
+  padding: 1.5em 0;
+  padding-left: 70px;
+}
+
+#footer{
+	background: #1B8FAC;
+	padding-top: 10px;
+	color: #fff;
+}
+.f_title{
+  width: 220px;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 0 15px 15px 0;
+  font-size: 18px;
+  color: #000;
+  font-weight:bold;
+  background-color: #C3E2A7;
+}
+
+.f_content{
+	margin: 5px;
+	
+}
+
+#voteRetModel #retMsg{
+	margin-bottom: 60px;
+}

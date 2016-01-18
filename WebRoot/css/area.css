@@ -1,0 +1,54 @@
+body { color:#222; font-family:Microsoft YaHei, Helvitica, Verdana, Tohoma, Arial, san-serif; margin:0; padding: 0; text-decoration: none; }
+ul { list-style: none outside none; margin:0; padding: 0; }
+
+.mainmenu:after { clear: both; content: " "; display: block; }
+
+.mainmenu{
+	display:block; position:relative;min-width:320px; margin:0 auto; max-width:640px; width: 100%; overflow:hidden; background-size:100%;
+	
+}
+
+.mainmenu li{ 
+    float:left;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    width: 95%;
+	height:160px;
+    /*
+    overflow:hidden;
+	border-radius:300px;
+    -webkit-border-radius:300px;
+    -moz-border-radius:300px;
+	border:solid 2px #ff0;
+	padding-top: 8%;
+    */
+}
+
+
+
+.mainmenu li h1{ 
+	color:#FFF;   
+	text-align:center; 
+	font-size:60px;
+	font-family: Tahoma,Arial,Roboto,¡±Droid Sans¡±,¡±Helvetica Neue¡±,¡±Droid Sans Fallback¡±,¡±Heiti SC¡±,¡±Hiragino Sans GB¡±,Simsun,sans-self;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.mainmenu li span{ 
+	display:block;  
+	color:#FFF;   
+	text-align:right;
+	margin-right:3%;
+	font-size:32px;
+	font-style: italic;
+}
+
+.mainmenu li:nth-child(8n+1) {background-color:#36A1DB}
+.mainmenu li:nth-child(8n+2) {background-color:#678ce1}
+.mainmenu li:nth-child(8n+3) {background-color:#8c67df}
+.mainmenu li:nth-child(8n+4) {background-color:#84d018}
+.mainmenu li:nth-child(8n+5) {background-color:#14c760}
+.mainmenu li:nth-child(8n+6) {background-color:#f3b613}
+.mainmenu li:nth-child(8n+7) {background-color:#ff8a4a}
+.mainmenu li:nth-child(8n+8) {background-color:#fc5366}

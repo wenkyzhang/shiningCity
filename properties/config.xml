@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<code id="signControl" name="报名字段唯一控制">
+		<!-- 
+			
+		 -->
+		<item id="unique">phone,name,email</item>
+		<item id="uploadPath">c:/photo/</item>
+		<item id="suffixs">.jpg;.png;.bmp</item>
+	</code>
+	<code id="config" name="童模设置">
+		<item id="ageGroup">幼儿组,儿童组,少儿组,亲子组</item>
+		<item id="areaGroup">舟山</item>
+	</code>
+</config>

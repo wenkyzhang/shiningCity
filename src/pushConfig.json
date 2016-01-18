@@ -1,0 +1,69 @@
+{
+	"appInfo3":{
+		appId:"wxfa8c6293a6ba499e",
+        secret:"de3b469dc5399ac678652c1e467ab4eb"
+	},
+	"appInfo2":{
+		appId:"wxba588b77e7ed5f7e",
+		secret:"e598eef51be4a96047b030bff0000513"
+	},
+	"appInfo1":{
+		appId:"wxd76123b8474ab346",
+		secret:"29873d6aa3ea218ad9bd03049442ceed"
+	},
+	"appInfo":{
+	    appId:"wxfa8c6293a6ba499e",
+        secret:"de3b469dc5399ac678652c1e467ab4eb"
+	},
+	"serviceInfo":{
+	    appId:"wx034b1efd71efc8e5",
+        secret:"7608dfc2a89e291fe2b36c8f5f3418fb"
+	},
+	"serviceInfo2":{
+	    appId:"wx2783ee32f3f054ac",
+        secret:"1fc55d0d9e5450d0bf8c5bfd049a160c"
+	},
+	"domainName":"http://www.ictcau.com",
+	"conf_InternationalShinng":
+	[
+		{
+			"title":"中德教育与文化交流中心",
+			"description":"",
+			"picUrl":"http://www.ictcau.com/images/zhongde.jpg",
+			"detailUrl":"http://www.ictcau.com/collaboration.jsp"
+		},
+		{
+			"title":"欧亚艺术交流协会 ",
+			"description":"",
+			"picUrl":"http://www.ictcau.com/images/ouyawenyi.png",
+			"detailUrl":"http://www.ictcau.com/provenc.jsp"
+		}
+	],
+	"conf_BrandInterpretation":
+	[
+		{
+			"title":"I AM I 我就是我",
+			"description":"I AM I我就是我这是一个展示自我的童模大赛这是一个走向国际的超级通道我们用心用力为孩子们打造闪耀之城",
+			"picUrl":"https://mmbiz.qlogo.cn/mmbiz/iaTkq47Z1FxtmaWiaKwUMyYGaTKTUpcb9zyn0kIeicNwVgI5RFhhpLPpOuaiczWfgibMzsHibrZAqPQUpolFf961yq4w/0?wx_fmt=jpeg",
+			"detailUrl":"http://mp.weixin.qq.com/s?__biz=MzA4Njg2Nzc2Mw==&mid=205789145&idx=1&sn=be97b730b6eac83c04ce6f3668b4e2ea&scene=18#rd"
+		}
+	],
+	"conf_ChildMold":
+	[
+		{
+			"title":"关于举办 “闪耀之城”2015 IMI国际超级童模大赛 通  知",
+			"description":"关于举办“闪耀之城”2015 IMI国际超级童模大赛通 知 为了发现和培育个性化、国际化的优秀少儿模特",
+			"picUrl":"https://mmbiz.qlogo.cn/mmbiz/iaTkq47Z1FxvZhUiciabibiaLqtup3rg6BZM1wXibayfib8JArhKudyBa0ibYuLFX2jJia7olclQ4kSRm8WXsZiaVeq637yw/0?wx_fmt=jpeg",
+			"detailUrl":"http://mp.weixin.qq.com/s?__biz=MzA4Njg2Nzc2Mw==&mid=207263519&idx=1&sn=c86119722c53ce4589aa931760e7667f&scene=18#rd"
+		}
+	],
+	"conf_ShiningCity":
+	[
+		{
+			"title":"［闪耀时尚新闻］闪耀城市－中国舟山群岛新区",
+			"description":"这是一个展示自我的童模大赛\n这是一个走向国际的超级通道\n我们用心用力为孩子们打造的 闪耀之城。",
+			"picUrl":"https://mmbiz.qlogo.cn/mmbiz/iaTkq47Z1FxsibI9szzRIHiaEtialI0FhVLljlLAdAOKoKUYkjTezczZ60FvQKlRc3HibyMb32Jxia8FmRQjcllB9qqg/0?wx_fmt=jpeg",
+			"detailUrl":"http://mp.weixin.qq.com/s?__biz=MzA4Njg2Nzc2Mw==&mid=206575008&idx=1&sn=a4afb64fe42fdbbe074840e0de90a8b7&scene=18#rd"
+		}
+	]
+}
