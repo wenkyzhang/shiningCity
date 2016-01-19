@@ -299,6 +299,31 @@ function getHTMLForInternal(data, len){
 }
 
 /**
+ * 组装国际联动html
+ * @param data
+ * @param len
+ */
+function getHTMLForCase(data, len){
+	if(!data){
+		return '';
+	}
+	
+	var html = '';
+	var i = data.length - 1;
+	for(;i >= 0; i--){
+		if(i < (data.length - len)){
+			break;
+		}
+		html+='<div class="span6 embed-responsive embed-responsive-16by9 center b-15">'
+			+'	<iframe id="video_iframe1" class="embed-responsive-item" src="' + data[i].url + '" style="width: 100%;height: 400px;"></iframe>'
+			+'	<span style="font-size:24px;">' + data[i].title + '</span>'
+			+'</div>';
+	}
+	
+	return html;
+}
+
+/**
  * 字符串截取函数
  * @param str  要截取的字符串
  * @param len  要保留的长度

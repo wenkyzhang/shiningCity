@@ -14,6 +14,7 @@
       <li><a href="<%=basePath %>match/queryMatches.do"><span class="am-icon-table"></span> 赛事管理</a></li>
       <li><a href="<%=basePath %>units/queryUnits.do"><span class="am-icon-table"></span> 联盟单位</a></li>
       <li><a href="<%=basePath %>queryInternals.do"><span class="am-icon-table"></span> 国际联动</a></li>
+      <li><a href="<%=basePath %>queryCases.do"><span class="am-icon-table"></span> 案例视频</a></li>
       <li><a href="<%=basePath %>admin/queryArea.do?curPage=1"><span class="am-icon-table"></span> 赛区设置</a></li>
       <li><a href="<%=basePath %>admin/indexSign.do"><span class="am-icon-table"></span> 签到列表</a></li>
       <li><a href="<%=basePath %>admin/queryInfor.do?id=1&type=0&curPage=1"><span class="am-icon-table"></span> 赛程报道</a></li>

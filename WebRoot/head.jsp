@@ -57,7 +57,7 @@
                         <li class="" id="news"><a href="alliance_news.jsp"><b>联盟动态</b></a></li>
                         <li class="" id="internal"><a href="alliance_internal.jsp"><b>国际联动</b></a></li>
                         <li class="" id="match"><a href="compet.jsp"><b>品牌赛事</b></a></li>
-                        <li class="" id="case"><a href="error.jsp"><b>经典案例</b></a></li>
+                        <li class="" id="case"><a href="alliance_case.jsp"><b>经典案例</b></a></li>
                         <li class="" id="teacher"><a href="mentor_group.jsp"><b>导师智库</b></a></li>
                     </ul>
                 </div><!--/.nav-collapse -->

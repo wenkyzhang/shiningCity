@@ -39,7 +39,7 @@ DD_belatedPNG.fix('img,.ie6png');
 
     <!--头部代码开始-->
     <jsp:include page="head.jsp">
-        <jsp:param value="internal" name="curPage"/>
+        <jsp:param value="case" name="curPage"/>
     </jsp:include>
     <!--头部代码结束-->
 
@@ -54,11 +54,12 @@ DD_belatedPNG.fix('img,.ie6png');
                         <div class="l-15">
                             <h3 class="label-title border-b b-15 small clearfix"
                                 style="padding-bottom: 14px;">
-                                <span class="pull-left r-10">国际联动</span>
+                                <span class="pull-left r-10">视频回放</span>
                             </h3>
                         </div>
 
-                        <div id="internal_row" class="label-main clearfix" style="padding-left: 16px;"></div>
+                        <div id="case_row" class="label-main clearfix" style="padding-left: 16px;">
+                        </div>
                     </div>
                 </div>
                 <!--联盟介绍结束-->
@@ -75,36 +76,31 @@ DD_belatedPNG.fix('img,.ie6png');
     <!-- /container -->
     
     <jsp:include page="buttom.jsp" />
-
-    <script type="text/javascript" src="js/ueditor1_4_3_1/ueditor.parse.min.js"></script>
+    
     <script type="text/javascript" src="js/htmlUtil.js"></script>
     <script type="text/javascript">
         //回到顶部
         backToTop('body');
         
-        uParse('#internal_row', {
-            rootPath: '../'
-        });
-        
         jQuery(function(){
             
-            $.post("<%=basePath%>/queryInternalsForAjax.do",function(result){
+             $.post("<%=basePath%>queryCasesForAjax.do",function(result){
                 var data = JSON.parse(result);
                 if(!!data.type && data.type == 'success')
                 {
                     //得到数据对象 
                     data = data.obj;
                     
-                    // 联盟动态 
+                    // 经典案例 
                     if(!!data){
-                        $('div#internal_row').append(getHTMLForInternal(data));
+                        $('div#case_row').append(getHTMLForCase(data));
                     }else{
-                    	$('div#internal_row').append("暂时没有联盟单位信息");
+                        $('div#case_row').append("暂时没有视频信息");
                     }
                 }
                 else
                 {
-                	$('div#internal_row').append("暂时没有联盟单位信息");
+                	$('div#case_row').append("暂时没有视频信息");
                 }
                 
             });
